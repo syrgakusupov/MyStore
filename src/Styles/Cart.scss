@@ -1,0 +1,150 @@
+
+.item{
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131313;
+  color: #cccccc;
+  border-radius: 10px;
+  margin-top: 10px;
+
+
+  &_product{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  img{
+    width: 50px;
+    border-radius: 10px;
+
+  }
+  a{
+    font-size: 20px;
+    color: #cccccc;
+  }
+
+  &_amount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    p{
+      font-size: 20px;
+    }
+    &_block{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 1px solid #212123;
+      padding: 5px 10px;
+      border-radius: 10px;
+
+      span{
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background: #212123;
+        border: 1px solid #212123;
+        padding: 5px 10px;
+        border-radius: 10px;
+      }
+    }
+
+
+    button{
+      display: flex;
+      align-items: center;
+      color: red;
+      font-size: 20px;
+      text-transform: uppercase;
+      border: 1px solid #212123;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #212123;
+      cursor: pointer;
+
+    }
+  }
+
+
+}
+
+.total_block{
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131313;
+  border-radius: 10px;
+  position: sticky;
+  margin-top: 20px;
+
+  span{
+    color: #cccccc;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #212123;
+    border-radius: 10px;
+    padding: 5px 20px;
+    display: flex;
+    gap: 30px;
+
+
+  }
+  &_btn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    a{
+      color: #cccccc;
+      font-size: 20px;
+      text-transform: uppercase;
+      border: 1px solid #212123;
+      border-radius: 10px;
+      padding: 5px 20px;
+      background-color: #212123;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+    button{
+      display: flex;
+      align-items: center;
+      color: red;
+      font-size: 20px;
+      text-transform: uppercase;
+      border: 1px solid #212123;
+      border-radius: 10px;
+      padding: 5px 10px;
+      background-color: #212123;
+      cursor: pointer;
+
+    }
+  }
+
+
+
+
+
+}
+
+
+.cart_null{
+  height:70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  h1{
+    color: #cccccc;
+    font-size: 40px;
+  }
+  img{
+    width: 200px;
+  }
+}

@@ -1,0 +1,61 @@
+.params{
+
+  &_product{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+
+    img{
+      width: 700px;
+      border-radius: 10px;
+
+    }
+  }
+  &_text{
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    gap: 10px;
+
+    h3{
+      background-color: #131313;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h4{
+      background-color: #131313;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      gap: 30px;
+
+    i{
+      text-decoration: line-through solid #9d3434;
+
+
+    }
+    }
+    p{
+      background-color: #131313;
+      padding: 20px;
+      border-radius: 10px;
+
+    }
+
+
+    button{
+      width: 170px;
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: #131313;
+      color: #cccccc;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+}
