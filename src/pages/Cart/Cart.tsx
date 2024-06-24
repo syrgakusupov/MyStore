@@ -31,10 +31,10 @@ const Cart = () => {
                         <div className='item' key={item.id}>
                             <div className='item_product'>
                                 <NavLink to={`/params/${item.id}`}>
-                                    <img src={item.image_url} alt=""/>
+                                    <img src={item.img} alt=""/>
                                 </NavLink>
                                 <NavLink to={`/params/${item.id}`}>
-                                    {item.name}
+                                    {item.title}
                                 </NavLink>
 
                             </div>

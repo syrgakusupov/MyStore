@@ -15,12 +15,13 @@ const CatalogRow = () => {
                 product.map((item) =>(
                     <div className='product' key={item.id}>
                         <NavLink to={`/params/${item.id}`}>
-                            <img src={item.image_url} alt=""/>
+                            <img src={item.img} alt=""/>
                         </NavLink>
                         <NavLink to={`/params/${item.id}`}>
-                            <p>{item.name || <Skeleton/>}</p>
+                            <p>{item.title || <Skeleton/>}</p>
                         </NavLink>
-
+                        <span>{item.author}</span>
+                        <h4> <i>{item.list_price} сом</i> <b>{item.sale_price} сом</b> </h4>
                             <IconButton onClick={() => addToCart(item)} aria-label="add to shopping cart">
                                 <FaCartArrowDown />
                             </IconButton>

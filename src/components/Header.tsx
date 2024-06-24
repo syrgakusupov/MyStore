@@ -1,6 +1,6 @@
 import React, {useContext} from 'react';
 import '../Styles/Header.scss'
-import Logo from '../images/logo-removebg-preview.png'
+import Logo from '../images/logos.png'
 import { IoArrowBackSharp } from "react-icons/io5"
 import { FaShoppingBasket } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
@@ -15,17 +15,17 @@ const Header = () => {
         <div className='Header'>
                 <div className='Header_logo'>
                     <button onClick={goBack}><IoArrowBackSharp /></button>
-                    <img src={Logo} alt=""/>
+                    <img src={Logo} alt="" style={{width:150}}/>
                 </div>
 
 
 
             <div className='Header_menu'>
-                <NavLink to='/'>Home</NavLink>
+                <NavLink to='/'>ДОМ</NavLink>
 
             </div>
             <div className='Header_icons'>
-                <p>usupovsyrgak</p>
+                <p>usupovsyrgak@gmail.com</p>
                 <NavLink to='/cart'><FaHeart/>0</NavLink>
                 <NavLink to='/cart'><FaShoppingBasket/>{cartStateAmount}</NavLink>
 

@@ -12,9 +12,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <SkeletonTheme baseColor='#313131' highlightColor='#525252'>
       <BrowserRouter>
-          <ModalState>
-              <App />
-          </ModalState>
+              <ModalState>
+                  <App />
+              </ModalState>
       </BrowserRouter>
   </SkeletonTheme>
 );

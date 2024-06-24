@@ -45,16 +45,39 @@
 
     }
 
-
-    button{
-      width: 170px;
-      height: 50px;
-      border-radius: 10px;
-      border: none;
-      background-color: #131313;
-      color: #cccccc;
-      font-size: 20px;
-      cursor: pointer;
+    &_btn{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        width: auto;
+        padding: 0 14px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        background-color: #9f3232;
+        color: #cccccc;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      h1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        width: auto;
+        height: 50px;
+        padding: 0 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #131313;
+        color: #cccccc;
+        font-size: 18px;
+      }
     }
   }
 

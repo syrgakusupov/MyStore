@@ -10,7 +10,7 @@ const Catalog = () => {
         getProduct()
     }, [])
     return (
-        <div className='catalog'>
+        <div className='catalogs'>
             <CatalogRow/>
         </div>
     );

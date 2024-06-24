@@ -1,0 +1,45 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #131313;
+  padding: 30px 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  img{
+    width: 150px;
+  }
+  &_contacts{
+    border-radius: 10px;
+    background-color: #212123;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 20px;
+
+    a{
+      color: #cccccc;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+  }
+  &_icons{
+    display: flex;
+    column-gap: 50px;
+    background-color: #212123;
+    padding: 10px 20px;
+    border-radius: 10px;
+    a{
+      display: flex;
+      align-items: center;
+      column-gap: 20px;
+      color: #cccccc;
+      font-size: 20px;
+
+    }
+  }
+  }
+
+

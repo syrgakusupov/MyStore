@@ -6,7 +6,7 @@ import Params from "./pages/Params/Params";
 import Catalog from "./pages/Home/Catalog/Catalog";
 import Header from "./components/Header";
 import Cart from "./pages/Cart/Cart";
-
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
 
       </Routes>
 
-
+        <Footer/>
 
     </div>
   );

@@ -44,13 +44,14 @@ export const ModalState: React.FC<{children: React.ReactNode}> =({children}) => 
 
 
 
+
     const [product, setProduct] = useState<IProduct[]>([])
 
         const getProduct = async () => {
 
             try {
                 const response = await axios.get<IProduct[]>
-                ('https://example-data.draftbit.com/products')
+                ('http://localhost:2222/catalog')
                 setProduct(response.data)
                 setFilter(response.data)
             }catch (error){
@@ -63,7 +64,7 @@ export const ModalState: React.FC<{children: React.ReactNode}> =({children}) => 
     const [filter, setFilter] = useState <IProduct[]>([])
     const searchProducts = (query: string) => {
         const filtered = product.filter((sProducts) =>
-            sProducts.name.toLowerCase().includes(query.toLowerCase())
+            sProducts.title.toLowerCase().includes(query.toLowerCase())
         )
         setFilter(filtered)
     }
