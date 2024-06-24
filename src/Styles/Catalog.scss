@@ -1,3 +1,4 @@
+
 .catalog{
 
 
@@ -9,10 +10,9 @@
     row-gap: 30px;
     column-gap: 10px;
 
-
     .product{
-      width: 220px;
-      height: 360px;
+      width: 230px;
+      height: 440px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -22,7 +22,9 @@
       border-radius: 10px;
       background-color: #131313;
       position: relative;
-
+      a{
+        text-decoration: none;
+      }
       h4 {
         color: #cccccc;
         font-size: 18px;
@@ -41,7 +43,7 @@
         }
       }
       img{
-        width: 110px;
+        width: 170px;
         border-radius: 5px;
       }
 
